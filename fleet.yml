@@ -1,0 +1,6 @@
+targetCustomizations:
+ - name: suseconexample-cd
+   namespace: suseconexample
+   clusterGroup: local
+   kustomize:
+     dir: overlays/prod
