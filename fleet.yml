@@ -3,4 +3,4 @@ targetCustomizations:
    namespace: suseconexample
    clusterGroup: local
    kustomize:
-     dir: overlays/prod
+     dir: base
