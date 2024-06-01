@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: suseconexample-service
+  namespace: susecon-cd
 spec:
   ports:
   - name: test
