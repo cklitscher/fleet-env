@@ -5,6 +5,7 @@ metadata:
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-suseconexample
   name: suseconexample-cd
+  namespace: susecon-cd
 spec:
   replicas: 1
   selector:
