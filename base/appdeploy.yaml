@@ -17,7 +17,7 @@ spec:
         workload.user.cattle.io/workloadselector: apps.deployment-default-suseconexample
     spec:
       containers:
-      - image: markusdhs/susecondemo:207123201f6617a1a0e93b409f9ebcb9b2d2c2e1
+      - image: markusdhs/susecondemo:8f0a0fc6f90f6451150f4aee5adf9c88cf53eb40
         imagePullPolicy: Always
         name: container-0
         ports:
