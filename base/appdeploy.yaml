@@ -4,8 +4,8 @@ metadata:
   annotations: {}
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
-  name: suseconexample-cd
-  namespace: susecon-cd
+  name: fleet-cd
+  namespace: fleet-cd
 spec:
   replicas: 1
   selector:
