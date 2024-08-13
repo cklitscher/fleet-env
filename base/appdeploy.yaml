@@ -3,21 +3,21 @@ kind: Deployment
 metadata:
   annotations: {}
   labels:
-    workload.user.cattle.io/workloadselector: apps.deployment-default-suseconexample
+    workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
   name: suseconexample-cd
   namespace: susecon-cd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      workload.user.cattle.io/workloadselector: apps.deployment-default-suseconexample
+      workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
   template:
     metadata:
       labels:
-        workload.user.cattle.io/workloadselector: apps.deployment-default-suseconexample
+        workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
     spec:
       containers:
-      - image: markusdhs/susecondemo:eb2ad815a4d942934996ad5a6f65f8f95ac0e218
+      - image: cklitscherp/fleet:eb2ad815a4d942934996ad5a6f65f8f95ac0e218
         imagePullPolicy: Always
         name: container-0
         ports:
