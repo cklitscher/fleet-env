@@ -1,6 +1,6 @@
 targetCustomizations:
- - name: suseconexample-cd
-   namespace: suseconexample
+ - name: fleet-cd
+   namespace: fleet
    clusterGroup: local
    kustomize:
      dir: base
