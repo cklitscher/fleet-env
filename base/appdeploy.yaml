@@ -17,7 +17,7 @@ spec:
         workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
     spec:
       containers:
-      - image: cklitscherp/fleet:2277edb1edd6efb7690581603ef9c40cfe671f9c
+      - image: cklitscherp/fleet:68ab1a296543395076980b69caa2934350535e2b
         imagePullPolicy: Always
         name: container-0
         ports:
