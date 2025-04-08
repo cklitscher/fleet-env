@@ -1,6 +1,6 @@
 targetCustomizations:
  - name: fleet-cd
    namespace: fleet
-   clusterName: elem-aioc01
+   clusterName: dsc01
    kustomize:
      dir: base
