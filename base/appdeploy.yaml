@@ -5,7 +5,7 @@ metadata:
   labels:
     workload.user.cattle.io/workloadselector: apps.deployment-default-fleet
   name: fleet-ck
-  namespace: fleet-ck
+  namespace: fleet-cd
 spec:
   replicas: 1
   selector:
