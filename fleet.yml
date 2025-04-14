@@ -1,6 +1,5 @@
 targetCustomizations:
  - name: fleet-cd
-   namespace: fleet
    clusterName: ckdsc01
    kustomize:
      dir: base
