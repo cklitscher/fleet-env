@@ -1,6 +1,6 @@
 targetCustomizations:
  - name: fleet-cd
    namespace: fleet
-   clusterName: dsc01
+   clusterName: ckdsc01
    kustomize:
      dir: base
